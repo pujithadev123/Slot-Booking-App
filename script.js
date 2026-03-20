@@ -39,7 +39,7 @@ btn.forEach((ele) => {
         let list = document.createElement("li");
         list.textContent = `you book the slot at ${ele.textContent}`;
         ol.appendChild(list);
-        console.log(ele);
+      
       } else {
         let get_ol = booked_section.querySelector("ol");
         let list = document.createElement("li");
