@@ -27,7 +27,7 @@ let del_btn = document.getElementById("delete");
 
 btn.forEach((ele) => {
   ele.addEventListener("click", () => {
-    let ask = confirm("Are you sure you want to book the seat?");
+    let ask = confirm("Are you sure you want to book the slot?");
     if (ask) {
       if (!booked_section.querySelector("ol")) {
         booked_section.textContent = "";
